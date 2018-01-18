@@ -1,0 +1,123 @@
+/*Bethany Tinklenberg Portal Page Stylesheet, DES 157, Winter 2018*/
+
+body {
+  max-height: 768px;
+  background-color: initial;
+}
+
+header {
+  text-align: center;
+}
+
+#branding {
+  display: inline-block;
+  padding: 16px;
+}
+
+#branding img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#branding h1 {
+  display: block;
+}
+
+#mySketch {
+  width: 800px;
+  height: 250px;
+  margin: 16px;
+  background-color: black;
+  float: right;
+  display: inline;
+}
+
+#my-sketch:hover {
+  background-color: #b682dd;
+}
+
+section {
+  margin: 16px;
+}
+
+section nav {
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
+section li {
+  text-align: left;
+}
+
+#studios {
+  padding: 16px;
+  margin: 16px;
+  width: 44.4%;
+  height: 250px;
+  background-color: #C3D9F1;
+  display: inline-block;
+}
+
+#studios:hover {
+  background-color: #83D9DE;
+}
+
+#projects {
+  padding: 16px;
+  margin: 16px;
+  width: 44.4%;
+  height: 250px;
+  background-color: #CFDCEC;
+  display: inline-block;
+}
+
+#projects:hover {
+  background-color: #d37cd2;
+}
+
+section a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+section a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+section h2 {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+  background-color: #D5D7D8;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+}
+
+footer p {
+  display: inline;
+}
+
+
+/*** typography ***/
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+}
+
+a {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
