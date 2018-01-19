@@ -96,6 +96,18 @@ section nav {
   padding-left: 30px;
 }
 
+section ol {
+  font-family: 'Montserrat', sans-serif;
+  list-style: initial;
+  padding: 30px;
+}
+
+section ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style: decimal;
+  padding: 30px;
+}
+
 section li {
   text-align: left;
 }
@@ -168,8 +180,4 @@ a {
   font-size: 14px;
   color: black;
   text-decoration: none;
-}
-
-ol {
-  font-family: 'Montserrat', sans-serif;
 }
