@@ -45,6 +45,7 @@ article {
 
 article h1 {
   font-size: 35px;
+  padding: 20px;
 }
 
 article p {
@@ -57,18 +58,20 @@ article p {
 
 article h2 {
   font-size: 20px;
+  padding: 8px;
 }
 
 article a {
   font-family: 'Lora', serif;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   text-decoration: none;
+  padding: 8px;
 }
 
 article a:hover {
   font-family: 'Lora', serif;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   text-decoration: none;
 }
@@ -94,18 +97,6 @@ section {
 section nav {
   list-style-position: inside;
   padding-left: 30px;
-}
-
-section ol {
-  font-family: 'Montserrat', sans-serif;
-  list-style: initial;
-  padding: 30px;
-}
-
-section ul {
-  font-family: 'Montserrat', sans-serif;
-  list-style: decimal;
-  padding: 30px;
 }
 
 section li {
@@ -146,11 +137,13 @@ section a {
 section a:hover {
   font-family: 'Montserrat', sans-serif;
   color: white;
+  font-size: 18px;
   text-decoration: none;
 }
 
 section h2 {
   text-align: center;
+  padding: 8px;
 }
 
 footer {
@@ -173,6 +166,7 @@ h1, h2 {
   font-family: 'Lora', serif;
   letter-spacing: 2.5px;
   font-size: 25px;
+  padding: 8px;
 }
 
 a {
@@ -180,4 +174,15 @@ a {
   font-size: 14px;
   color: black;
   text-decoration: none;
+}
+
+ol {
+ font-family: 'Montserrat', sans-serif;
+ list-style: decimal;
+ padding: 35px;
+}
+ul {
+ font-family: 'Montserrat', sans-serif;
+ list-style: initial;
+ padding: 35px;
 }
