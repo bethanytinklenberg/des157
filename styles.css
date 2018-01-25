@@ -1,7 +1,8 @@
 /*Bethany Tinklenberg Portal Page Stylesheet, DES 157, Winter 2018*/
 
 body {
-  max-height: 768px;
+  width:1366px;
+  height:768px;
   background-color: initial;
 }
 
