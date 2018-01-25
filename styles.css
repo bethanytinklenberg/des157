@@ -90,6 +90,47 @@ article img {
   padding: 12px;
 }
 
+#comparative img {
+  float: left;
+  display: inline;
+  width: 45%;
+  padding: 12px;
+}
+
+#comparative video {
+  float: left;
+  display: inline;
+  width: 45%;
+  padding: 12px;
+}
+
+#comparative p {
+  float: left;
+  /* display: block; */
+  width: 33%;
+  padding: 12px;
+}
+
+#comparative h1 {
+  width: 33%;
+  text-align: center;
+}
+
+#comparative a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  display: inline;
+}
+
+#comparative a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+
 section {
   margin: 16px;
 }
@@ -144,6 +185,7 @@ section a:hover {
 section h2 {
   text-align: center;
   padding: 8px;
+  line-height: 30px;
 }
 
 footer {
