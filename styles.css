@@ -150,7 +150,7 @@ section li {
   width: 44.4%;
   height: 250px;
   background-color: #C3D9F1;
-  display: inline-block;
+  float: left;
 }
 
 #studios:hover {
@@ -163,7 +163,7 @@ section li {
   width: 44.4%;
   height: 250px;
   background-color: #CFDCEC;
-  display: inline-block;
+  float: left;
 }
 
 #projects:hover {
