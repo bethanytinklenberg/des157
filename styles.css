@@ -1,8 +1,13 @@
 /*Bethany Tinklenberg Portal Page Stylesheet, DES 157, Winter 2018*/
 
 body {
+<<<<<<< HEAD
   width: 1366px;
   height: 768px;
+=======
+  width:1366px;
+  height:768px;
+>>>>>>> 074f8d66ea4cde957bf809cfa7aedfcda36a8397
   background-color: initial;
 }
 
