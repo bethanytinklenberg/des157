@@ -10,35 +10,6 @@ header {
   text-align: center;
 }
 
-#branding {
-  display: inline-block;
-  padding: 16px;
-}
-
-#branding img {
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-#branding h1 {
-  display: block;
-}
-
-#mySketch {
-  width: 800px;
-  height: 250px;
-  margin: 16px;
-  background-color: black;
-  float: right;
-  display: inline;
-}
-
-#my-sketch:hover {
-  background-color: #b682dd;
-}
-
 article {
   width: 80%;
   margin: auto;
@@ -84,8 +55,55 @@ article img {
   padding-top: 50px;
 }
 
+#brainstorm {
+  float: left;
+  display: inline;
+  width: 45%;
+  padding: 12px;
+}
+
+#comparative img {
+  float: left;
+  display: inline;
+  width: 45%;
+  padding: 12px;
+}
+
+#comparative video {
+  float: left;
+  display: inline;
+  width: 45%;
+  padding: 12px;
+}
+
+#comparative p {
+  float: left;
+  /* display: block; */
+  width: 33%;
+  padding: 12px;
+}
+
+#comparative h1 {
+  width: 33%;
+  text-align: center;
+}
+
+#comparative a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  display: inline;
+}
+
+#comparative a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 section {
   margin: 16px;
+  width: 700px;
 }
 
 section {
@@ -101,31 +119,6 @@ section li {
   text-align: left;
 }
 
-#studios {
-  padding: 16px;
-  margin: 16px;
-  width: 40%;
-  /* height: 250px; */
-  background-color: #C3D9F1;
-  float: left;
-}
-
-#studios:hover {
-  background-color: #83D9DE;
-}
-
-#projects {
-  padding: 16px;
-  margin: 16px;
-  width: 40%;
-  /* height: 250px; */
-  background-color: #CFDCEC;
-  float: left;
-}
-
-#projects:hover {
-  background-color: #d37cd2;
-}
 
 section a {
   font-family: 'Montserrat', sans-serif;
