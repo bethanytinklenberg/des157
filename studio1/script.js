@@ -22,6 +22,12 @@ function processForm() {
   results.setAttribute('class', 'show');
   shaker.setAttribute("class", "hideshaker");
 
+  var mood = document.f.mood.value;
+  var alcohol = document.f.alcohol.value;
+  var juice = document.f.juice.value;
+  var fruit = document.f.fruit.value;
+  var l = document.f.l.value;
+
   myMix.innerHTML =
 
     "Woohoo! It's 5 o'clock somewhere! Honestly, a <em>" +
