@@ -42,7 +42,6 @@ function processForm() {
 }
 
 function resetForm() {
-  document.f.onreset = resetForm;
   myMix.innerHTML = "";
   results.setAttribute("class", "hide");
   shaker.setAttribute("class", "show");
