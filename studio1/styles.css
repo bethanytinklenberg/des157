@@ -71,7 +71,7 @@ div input[name="mood"] {
   height: 25px;
   padding: 5px;
   margin: 10px;
-  display: block;
+  display: inline;
   border: none;
   border-radius: 2px;
   font-family: 'Montserrat', sans-serif;
