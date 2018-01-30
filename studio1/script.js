@@ -32,9 +32,9 @@ function processForm() {
 
     "Woohoo! It's 5 o'clock somewhere! Honestly, a <em>" +
     mood +
-    "</em> drink is a great choice. Here is your <em>" +
+    "</em> drink is a great choice. We started with a" +
     mood + " " + alcohol +
-    "</em>. I mixed in <em>" + juice + "</em> and <em>" +
+    "</em>, mixed in <em>" + juice + "</em> and <em>" +
     l + "</em> and garnished with <em>" +
     fruit + "</em>. Sounds delicious!!";
 
