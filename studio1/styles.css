@@ -66,6 +66,21 @@ div input[type="text"] {
   color: #54898E;
 }
 
+div input[name="mood"] {
+  width: 95%;
+  height: 25px;
+  padding: 5px;
+  margin: 10px;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  background-color: #EAFAFB;
+  color: #54898E;
+}
+
 #mixer {
   text-align: center;
 }
