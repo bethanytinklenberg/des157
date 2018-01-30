@@ -66,7 +66,7 @@ div input[type="text"] {
   color: #54898E;
 }
 
-div input[name="mood"] {
+div input #mood {
   width: 95%;
   height: 25px;
   padding: 5px;
