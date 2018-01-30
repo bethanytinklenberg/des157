@@ -17,6 +17,7 @@ header h1 {
 
 header em {
   font-family: 'Berkshire Swash', cursive;
+  font-style: normal;
   font-size: 95px;
   color: #A8D6DB;
 }
@@ -27,7 +28,7 @@ article {
   margin-right: 25px;
   padding: 20px;
   width: 50%;
-  background-color: rgba(168, 214, 219,.7);
+  background-color: rgba(168, 214, 219, .7);
   float: left;
   border-radius: 3px;
 }
@@ -47,6 +48,7 @@ div em {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   line-height: normal;
+  font-style: normal;
 }
 
 div input[type="text"] {
@@ -68,7 +70,7 @@ div input[type="text"] {
   text-align: center;
 }
 
-#mixer input[type="reset"]{
+#mixer input[type="reset"] {
   width: 35%;
   margin: 10px;
   padding: 12px;
@@ -103,11 +105,11 @@ div input[type="text"] {
 }
 
 .show {
-  display:block;
+  display: block;
 }
 
 .hide {
-  display:none;
+  display: none;
 }
 
 #results {
@@ -121,6 +123,13 @@ div input[type="text"] {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+#results p {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #results input {

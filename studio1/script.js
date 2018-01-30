@@ -10,7 +10,7 @@ document.f.onreset = resetForm;
 
 
 function processForm() {
-  results.setAttribute('class','show');
+  results.setAttribute('class', 'show');
 
   myMix.innerHTML =
     "Woohoo! It's 5 o'clock somewhere! Honestly, a <em>" +
@@ -27,5 +27,5 @@ function processForm() {
 function resetForm() {
   myMix.innerHTML = "";
   results.setAttribute("class", "hide");
-  shaker.setAttribute("class","show");
+  shaker.setAttribute("class", "show");
 }
