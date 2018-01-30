@@ -16,8 +16,6 @@ results.setAttribute("class", "hide");
 
 document.f.onsubmit = processForm;
 document.f.onreset = resetForm;
-document.f2.onreset = resetForm;
-
 
 function processForm() {
   results.setAttribute('class', 'show');
@@ -41,6 +39,8 @@ function processForm() {
 
   return false;
 }
+
+document.f2.onreset = resetForm;
 
 function resetForm() {
   myMix.innerHTML = "";
