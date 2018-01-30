@@ -1,4 +1,4 @@
-/*Bethany Tinklenberg mad-libs css*/
+/*Bethany Tinklenberg Mad Libs CSS*/
 
 body {
   max-width: 1366px;
@@ -140,16 +140,19 @@ div input[type="text"] {
   line-height: normal;
 }
 
-#results input {
+#results input[type="reset"] {
+  width: 35%;
+  padding: 12px;
   border: none;
-  border-bottom: 2px #A8D6DB solid;
+  border-radius: 2px;
+  background-color: #54898E;
+  color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: normal;
+  font-size: 20px;
 }
 
 #results em {
-  font-style: bold;
+  font-weight: bold;
 }
 
 #results #another {
@@ -157,12 +160,11 @@ div input[type="text"] {
   letter-spacing: 2px;
   font-family: 'Berkshire Swash', cursive;
   font-size: 25px;
+  margin: 15px;
 }
 
 footer {
   clear: both;
-  /* position: fixed; */
-  /* bottom: 0px; */
   background-color: initial;
   width: 100%;
   padding: 8px;

@@ -1,3 +1,5 @@
+//Bethany Tinklenberg Mad Libs JavaScript
+
 'use strict';
 
 console.log("reading");
@@ -21,13 +23,14 @@ function processForm() {
   shaker.setAttribute("class", "hideshaker");
 
   myMix.innerHTML =
+
     "Woohoo! It's 5 o'clock somewhere! Honestly, a <em>" +
     mood +
     "</em> drink is a great choice. Here is your <em>" +
-    mood + alcohol +
+    mood + " " + alcohol +
     "</em>. I mixed in <em>" + juice + "</em> and <em>" +
     l + "</em> and garnished with <em>" +
-    fruit + "</em>. Sounds delish!!";
+    fruit + "</em>. Sounds delicious!!";
 
   return false;
 }
