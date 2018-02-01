@@ -1,0 +1,176 @@
+/*Bethany Tinklenberg Mad Libs CSS*/
+
+body {
+  max-width: 1366px;
+  max-height: 768px;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  margin: 0px;
+}
+
+header em {
+  font-family: 'Berkshire Swash', cursive;
+  font-style: normal;
+  font-size: 95px;
+  color: #A8D6DB;
+}
+
+article {
+  margin: 50px;
+  margin-right: 25px;
+  padding: 20px;
+  width: 50%;
+  background-color: rgba(168, 214, 219, .7);
+  float: left;
+  border-radius: 3px;
+}
+
+div {
+  margin: 8px;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  line-height: normal;
+}
+
+div em {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  font-style: normal;
+}
+
+div input[type="text"] {
+  width: 95%;
+  height: 25px;
+  padding: 5px;
+  margin: 5px;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  background-color: #EAFAFB;
+  color: #54898E;
+}
+
+#mixer {
+  text-align: center;
+}
+
+#mixer input[type="reset"] {
+  width: 35%;
+  margin: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: #54898E;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#mixer input[type="submit"] {
+  width: 35%;
+  margin: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: #54898E;
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 20px;
+}
+
+#shaker {
+  float: left;
+  width: 33%;
+  margin: auto;
+}
+
+#shaker img {
+  width: 80%;
+  padding-left: 60px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.hideshaker {
+  display: none;
+  height: 10px;
+}
+
+#results {
+  margin: auto;
+  float: left;
+  padding: 30px;
+  margin-top: 50px;
+  width: 33%;
+  background-color: #A8D6DB;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#results p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+}
+
+#results input[type="reset"] {
+  width: 35%;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: #54898E;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#results em {
+  font-weight: bold;
+}
+
+#results #another {
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 25px;
+  margin: 15px;
+}
+
+footer {
+  clear: both;
+  background-color: initial;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+}
+
+footer p {
+  display: inline;
+}
