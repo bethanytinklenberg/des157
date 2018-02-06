@@ -1,1 +1,16 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
+body {
+  width: >768px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+nav {
+  margin: 1.5px;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 128px;
+
+}
