@@ -1,16 +1,35 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
 body {
-  width: >768px;
+  width: 768px;
+  background-color: lightblue;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 30px;
 }
 
 nav {
   margin: 1.5px;
   background-color: white;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: [first] 1fr [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [end];
   grid-template-rows: 128px;
+}
 
+#backpack {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  rows: 1/9;
+  background-color: white;
+}
+
+#backpack img {
+  width: 100%;
+}
+
+#bottle {
+}
+
+#wallet {
 }
