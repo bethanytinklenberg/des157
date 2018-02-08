@@ -1,7 +1,7 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
 
 * {
-     box-size: border-box;
+  box-size: border-box;
 }
 
 body {
@@ -14,9 +14,8 @@ body {
 
 nav {
   margin: auto;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   width: 70%;
-
   /* grid-template-columns: 20%; */
   /* grid-template-columns: [first] 1fr [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [end]; */
   /* grid-template-rows: 128px; */
@@ -50,11 +49,10 @@ h1 {
 
 #shape {
   position: absolute;
-   left: 10%;
-   top: 10%;
-   z-index: -1;
+  left: 10%;
+  top: 10%;
+  z-index: -1;
 }
-
 
 #shape img {
   width: 580px;
@@ -80,7 +78,6 @@ h1 {
   left: 40%;
   top: 1050px;
   z-index: -4; */
-
   position: fixed;
   left: 50%;
   top: 22%;
@@ -119,7 +116,6 @@ display: inline-block;
   float: left;
   display: inline;
   z-index: -4; */
-
   position: fixed;
   left: 18%;
   top: 25%;
@@ -128,6 +124,7 @@ display: inline-block;
 }
 
 /***** overlay *****/
+
 #overlay {
   background-color: #B099EC;
   display: none;
@@ -165,9 +162,9 @@ display: inline-block;
 /***** footer *****/
 
 footer {
-position: fixed;
-bottom: 0px;
-clear: both;
+  position: fixed;
+  bottom: 0px;
+  clear: both;
 }
 
 footer #scroll {
@@ -188,40 +185,33 @@ footer a img {
 }
 
 /*** for larger moniter displays ***/
-@media only screen and (min-width: 769px) {
 
+@media only screen and (min-width: 769px) {
   body {
     padding: 20px;
     background-color: white;
     height: 200px;
   }
-
   ul {
     float: left;
     display: inline;
   }
-
   /**** header ****/
-
   header {
     padding: 0px;
     margin: auto;
     float: left;
   }
-
   #shape {
-     z-index: -1;
+    z-index: -1;
   }
-
   #shape img {
     width: 450px;
   }
-
   #backpack img {
     margin: auto;
     width: 70%;
   }
-
   /***** page image content ******/
   #bottle {
     position: absolute;
@@ -229,55 +219,45 @@ footer a img {
     width: 400px;
     height: 200px;
   }
-
   #bottle img {
     width: 250px;
   }
-
   #wallet {
     position: fixed;
     left: 65%;
     width: 400px;
     height: 200px;
   }
-
   #wallet img {
     width: 150px;
   }
-
   #iphone {
     position: fixed;
     left: 800px;
     top: 20px;
   }
-
   #iphone img {
     width: 150px;
   }
-
   #bottleoverlay {
     background-color: white;
     text-align: center;
     color: black;
     /* display: none; */
   }
-
   #walletoverlay {
     background-color: white;
     text-align: center;
     color: black;
     /* display: none; */
   }
-
   #iphoneoverlay {
     background-color: white;
     text-align: center;
     color: black;
     /* display: none; */
   }
-
   footer #scroll {
-  display: none;
+    display: none;
   }
-
 }
