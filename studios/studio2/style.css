@@ -6,7 +6,7 @@
 
 body {
   padding: 20px;
-  height: 1900px;
+  height: 2100px;
   background-color: white;
 }
 
@@ -148,4 +148,73 @@ footer a {
 footer a img {
   width: 15%;
   /* padding-bottom: 10px; */
+}
+
+/*** for larger moniter displays ***/
+@media only screen and (min-width: 769px) {
+
+  body {
+    padding: 20px;
+    background-color: white;
+  }
+
+  ul {
+    float: left;
+    display: inline;
+  }
+
+  /**** header ****/
+
+  header {
+    padding: 0px;
+    margin: auto;
+    float: left;
+  }
+
+  #shape {
+     z-index: -1;
+  }
+
+  #shape img {
+    width: 450px;
+  }
+
+  #backpack img {
+    margin: auto;
+    width: 70%;
+  }
+
+  /***** page image content ******/
+  #bottle {
+    position: absolute;
+    left: 65%;
+    width: 400px;
+   height: 200px;
+  }
+
+  #bottle img {
+    width: 250px;
+  }
+
+  #wallet {
+
+  }
+
+  #wallet img {
+    width: 150px;
+  }
+
+  #iphone {
+    position: absolute;
+    left: 300px;
+  }
+
+  #iphone img {
+    width: 150px;
+  }
+
+  footer #scroll {
+  display: none;
+  }
+
 }
