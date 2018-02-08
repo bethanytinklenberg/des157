@@ -1,7 +1,10 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
 
+* {
+     box-sizing: border-box;
+}
+
 body {
-  width: 768px;
   padding: 0px;
   background-color: white;
 }
@@ -13,23 +16,27 @@ h1 {
 
 }
 
+/****** main page content structure ******/
+
 nav {
   margin: 1.5px;
   padding: 0px;
   background-color: white;
   grid-template-columns: 20%;
   /* grid-template-columns: [first] 1fr [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [end]; */
-  grid-template-rows: 128px;
+  /* grid-template-rows: 128px; */
 }
 
 li {
   list-style-type: none;
 }
 
+/***** page image content ******/
+
 #backpack {
-  grid-column: 2/4;
+  grid-column: 2/6;
   /* grid-column-end: 4; */
-  rows: 1/8;
+  /* rows: 1/8; */
   background-color: lightblue;
 }
 
@@ -44,4 +51,9 @@ li {
 
 #wallet {
   display: none;
+}
+
+/***** for desktop view ******/
+@media only screen and (min-width: 768px) {
+   /* declarations */
 }

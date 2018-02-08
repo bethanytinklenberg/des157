@@ -1,1 +1,2 @@
 //BETHANY TINKLENBERG JS STUDIO 2
+‘use strict’;
