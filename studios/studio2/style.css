@@ -1,7 +1,7 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
 
 * {
-     box-sizing: border-box;
+     box-size: border-box;
 }
 
 body {
@@ -253,6 +253,27 @@ footer a img {
 
   #iphone img {
     width: 150px;
+  }
+
+  #bottleoverlay {
+    background-color: white;
+    text-align: center;
+    color: black;
+    /* display: none; */
+  }
+
+  #walletoverlay {
+    background-color: white;
+    text-align: center;
+    color: black;
+    /* display: none; */
+  }
+
+  #iphoneoverlay {
+    background-color: white;
+    text-align: center;
+    color: black;
+    /* display: none; */
   }
 
   footer #scroll {
