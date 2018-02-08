@@ -135,7 +135,7 @@ display: inline-block;
   height: 100vw;
 }
 
-#bottletext {
+#overlay p {
   background-color: white;
   text-align: center;
   color: black;
