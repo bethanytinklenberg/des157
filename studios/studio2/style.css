@@ -129,13 +129,27 @@ display: inline-block;
 
 /***** overlay *****/
 #overlay {
-  color: #B099EC;
+  background-color: #B099EC;
   display: none;
   width: 100vw;
   height: 100vw;
 }
 
-#overlay p {
+#bottleoverlay {
+  background-color: white;
+  text-align: center;
+  color: black;
+  display: none;
+}
+
+#walletoverlay {
+  background-color: white;
+  text-align: center;
+  color: black;
+  display: none;
+}
+
+#iphoneoverlay {
   background-color: white;
   text-align: center;
   color: black;
@@ -179,6 +193,7 @@ footer a img {
   body {
     padding: 20px;
     background-color: white;
+    height: 200px;
   }
 
   ul {
@@ -212,7 +227,7 @@ footer a img {
     position: absolute;
     left: 65%;
     width: 400px;
-   height: 200px;
+    height: 200px;
   }
 
   #bottle img {
@@ -220,7 +235,10 @@ footer a img {
   }
 
   #wallet {
-
+    position: fixed;
+    left: 65%;
+    width: 400px;
+    height: 200px;
   }
 
   #wallet img {
@@ -228,8 +246,9 @@ footer a img {
   }
 
   #iphone {
-    position: absolute;
-    left: 300px;
+    position: fixed;
+    left: 800px;
+    top: 20px;
   }
 
   #iphone img {
