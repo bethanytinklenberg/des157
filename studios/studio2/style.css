@@ -135,10 +135,11 @@ display: inline-block;
   height: 100vw;
 }
 
-#overlay p {
+#bottletext {
   background-color: white;
   text-align: center;
   color: black;
+  display: none;
 }
 
 #close {

@@ -8,22 +8,23 @@ var iphone = document.getElementById('iphone');
 var overlay = document.getElementById('overlay');
 var close = document.getElementById('close');
 
-bottle.addEventListener('ontouchstart',function(){
+bottle.addEventListener('click',function(){
+  overlay.style.display='block';
+  bottletext.style.display='block';
+  content.style.display='none';
+});
+
+wallet.addEventListener('click',function(){
   overlay.style.display='block';
   content.style.display='none';
 });
 
-wallet.addEventListener('ontouchstart',function(){
+iphone.addEventListener('click',function(){
   overlay.style.display='block';
   content.style.display='none';
 });
 
-iphone.addEventListener('ontouchstart',function(){
-  overlay.style.display='block';
-  content.style.display='none';
-});
-
-close.addEventListener('ontouchstart',function(){
+close.addEventListener('click',function(){
   overlay.style.display='none';
   content.style.display='block';
 });
