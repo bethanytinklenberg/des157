@@ -1,0 +1,21 @@
+body {
+  /* background-image: url("teamlab.jpg"); */
+  /* background-size: cover; */
+  background-color: white;
+  margin: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  float: left;
+  padding: 20px;
+}
+
+img {
+  float: left;
+  padding: 20px;
+}
