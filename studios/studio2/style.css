@@ -6,7 +6,7 @@
 
 body {
   padding: 20px;
-  height: 2100px;
+  height: 1890px;
   background-color: white;
 }
 
@@ -51,7 +51,7 @@ h1 {
   position: absolute;
   left: 10%;
   top: 10%;
-  z-index: -1;
+  z-index: 1;
 }
 
 #shape img {
@@ -59,10 +59,9 @@ h1 {
 }
 
 #backpack {
+  position: relative;
   margin: 0px;
-  /* grid-column: 2/6; */
-  /* grid-column-end: 4; */
-  /* rows: 1/8; */
+  z-index: 2;
   padding: 0px;
 }
 
@@ -73,92 +72,75 @@ h1 {
 /***** page image content ******/
 
 #bottle {
-  /* background-color: #9BE8E3; */
-  /* position: absolute;
-  left: 40%;
-  top: 1050px;
-  z-index: -4; */
   position: fixed;
   left: 50%;
   top: 22%;
-  z-index: -4;
 }
 
 #bottle img {
-  /* display: none; */
   width: 250px;
 }
 
-/* #bottle p {
-display: inline-block;
-} */
-
 #wallet {
-  /* background-color: #C6EC99; */
 }
 
 #wallet img {
-  /* display: none; */
   position: fixed;
   left: 35%;
   top: 55%;
-  z-index: -4;
   width: 150px;
 }
 
 #iphone {
-  /* background-color: #B099EC; */
 }
 
 #iphone img {
-  /* display: none; */
-  /* width: 30%;
-  float: left;
-  display: inline;
-  z-index: -4; */
   position: fixed;
   left: 18%;
   top: 25%;
-  z-index: -4;
   width: 150px;
 }
 
 /***** overlay *****/
 
 #overlay {
-  background-color: #B099EC;
+  background-color: rgba(176,153,236,.75);
   display: none;
-  width: 100vw;
-  height: 100vw;
+  position: relative;
+  z-index: 3;
+  margin-top: 30px;
+  padding: 30px;
 }
 
-#bottleoverlay {
-  background-color: white;
-  text-align: center;
-  color: black;
+#bottleoverlay{
   display: none;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  z-index: 3;
 }
 
 #walletoverlay {
-  background-color: white;
-  text-align: center;
-  color: black;
   display: none;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  z-index: 3;
 }
 
 #iphoneoverlay {
-  background-color: white;
-  text-align: center;
-  color: black;
   display: none;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  z-index: 3;
 }
 
 #close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  position: relative;
+  z-index: 4;
+  display: block;
 }
-
 /***** footer *****/
 
 footer {
@@ -187,77 +169,95 @@ footer a img {
 /*** for larger moniter displays ***/
 
 @media only screen and (min-width: 769px) {
-  body {
-    padding: 20px;
-    background-color: white;
-    height: 200px;
+
+  !body {
+    height: 100vw;
+    width: 100vw;
   }
+
   ul {
     float: left;
     display: inline;
   }
   /**** header ****/
+
   header {
     padding: 0px;
+    width: inherit;
     margin: auto;
-    float: left;
   }
+
+  p {
+    text-align: center;
+    /* clear: both; */
+    padding: 16px;
+    margin: auto;
+  }
+
   #shape {
+    position: absolute;
     z-index: -1;
   }
   #shape img {
-    width: 450px;
+    width: 400px;
+    margin: auto;
   }
   #backpack img {
     margin: auto;
-    width: 70%;
+    width: 65%;
   }
+
   /***** page image content ******/
-  #bottle {
-    position: absolute;
-    left: 65%;
-    width: 400px;
-    height: 200px;
-  }
+  /* #bottle {
+  } */
+
   #bottle img {
     width: 250px;
   }
-  #wallet {
-    position: fixed;
-    left: 65%;
-    width: 400px;
-    height: 200px;
-  }
+  /* #wallet {
+  } */
   #wallet img {
     width: 150px;
   }
-  #iphone {
-    position: fixed;
-    left: 800px;
-    top: 20px;
-  }
+  /* #iphone {
+  } */
   #iphone img {
     width: 150px;
   }
+
+  #overlay {
+    background-color: rgba(176,153,236,.75);
+    display: none;
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+  }
+
   #bottleoverlay {
-    background-color: white;
     text-align: center;
     color: black;
-    /* display: none; */
+    display: none;
+    font-size: 30px;
   }
   #walletoverlay {
-    background-color: white;
     text-align: center;
     color: black;
-    /* display: none; */
+    display: none;
   }
   #iphoneoverlay {
-    background-color: white;
     text-align: center;
     color: black;
-    /* display: none; */
+    display: none;
   }
+
+  #close {
+    position: relative;
+    z-index: 4;
+    display: block;
+  }
+
   footer #scroll {
+    clear: both;
     display: none;
   }
 }
