@@ -81,8 +81,7 @@ h1 {
   width: 250px;
 }
 
-#wallet {
-}
+#wallet {}
 
 #wallet img {
   position: fixed;
@@ -91,8 +90,7 @@ h1 {
   width: 150px;
 }
 
-#iphone {
-}
+#iphone {}
 
 #iphone img {
   position: fixed;
@@ -104,7 +102,7 @@ h1 {
 /***** overlay *****/
 
 #overlay {
-  background-color: rgba(176,153,236,.75);
+  background-color: rgba(176, 153, 236, .75);
   display: none;
   position: relative;
   z-index: 3;
@@ -112,7 +110,7 @@ h1 {
   padding: 30px;
 }
 
-#bottleoverlay{
+#bottleoverlay {
   display: none;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -141,6 +139,7 @@ h1 {
   z-index: 4;
   display: block;
 }
+
 /***** footer *****/
 
 footer {
@@ -169,31 +168,26 @@ footer a img {
 /*** for larger moniter displays ***/
 
 @media only screen and (min-width: 769px) {
-
   !body {
     height: 100vw;
     width: 100vw;
   }
-
   ul {
     float: left;
     display: inline;
   }
   /**** header ****/
-
   header {
     padding: 0px;
     width: inherit;
     margin: auto;
   }
-
   p {
     text-align: center;
     /* clear: both; */
     padding: 16px;
     margin: auto;
   }
-
   #shape {
     position: absolute;
     z-index: -1;
@@ -206,11 +200,9 @@ footer a img {
     margin: auto;
     width: 65%;
   }
-
   /***** page image content ******/
   /* #bottle {
   } */
-
   #bottle img {
     width: 250px;
   }
@@ -224,15 +216,13 @@ footer a img {
   #iphone img {
     width: 150px;
   }
-
   #overlay {
-    background-color: rgba(176,153,236,.75);
+    background-color: rgba(176, 153, 236, .75);
     display: none;
     position: relative;
     z-index: 3;
     padding: 30px;
   }
-
   #bottleoverlay {
     text-align: center;
     color: black;
@@ -249,13 +239,11 @@ footer a img {
     color: black;
     display: none;
   }
-
   #close {
     position: relative;
     z-index: 4;
     display: block;
   }
-
   footer #scroll {
     clear: both;
     display: none;
