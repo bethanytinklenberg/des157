@@ -1,5 +1,5 @@
 //Bethany Tinklenberg Studio 4
-//‘use strict’;
+"use strict;"
 
 var flower1 = document.getElementById('flower1');
 var flower2 = document.getElementById('flower2');
