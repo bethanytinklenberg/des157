@@ -4,16 +4,16 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
-
   <title>Libraries - Bethany Tinklenberg</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <section>
     <h1> Create Your Flower </h1>
-    <div id="workspace">
+    <div id="workspace" ondrop="drop(event)" ondragover="allowDrop(event)">
       <img id="flower1" src="images/flower1.png" alt="flower1">
       <img id="flower2" src="images/flower2.png" alt="flower2">
       <img id="flower3" src="images/flower3.png" alt="flower3">
@@ -23,17 +23,24 @@
     </div>
   </section>
 
-  <aside id="options">
-    <div id="table1">
-      <img id="petal1" src="images/petal1.png" alt="petal1">
-      <img id="petal2" src="images/petal2.png" alt="petal2">
-      <img id="petal3" src="images/petal3.png" alt="petal3">
-    </div>
-    <div id="table2">
-      <img id="petal4" src="images/petal4.png" alt="petal4">
-      <img id="petal5" src="images/petal5.png" alt="petal5">
-      <img id="petal6" src="images/petal6.png" alt="petal6">
-    </div>
+  <div class="line"></div>
+
+  <aside id="options" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img id="petal1" src="images/petal1.png" alt="petal1" draggable="true" ondragstart="drag(event)">
+      <img id="petal2" src="images/petal2.png" alt="petal2" draggable="true" ondragstart="drag(event)">
+      <img id="petal3" src="images/petal3.png" alt="petal3" draggable="true" ondragstart="drag(event)">
+      <img id="petal4" src="images/petal4.png" alt="petal4" draggable="true" ondragstart="drag(event)">
+      <img id="petal5" src="images/petal5.png" alt="petal5" draggable="true" ondragstart="drag(event)">
+      <img id="petal6" src="images/petal6.png" alt="petal6" draggable="true" ondragstart="drag(event)">
   </aside>
-  <script src="script.js"></script>
+
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+    <a href="index.html">RESET</a>
+    <!--used HTML Drag and Drop functionality-->
+  </footer>
+
+  <script src="dragscript.js"></script>
+  <!-- <script src="script.js"></script> -->
 </body>

@@ -1,5 +1,91 @@
 /*Bethany Tinklenberg Studio 4*/
 
 body {
+  background-color: #283046;
+}
 
+section {
+  width: 49%;
+  margin: 16px;
+  float:left;
+}
+
+#workspace {
+  margin: auto;
+  padding: 16px;
+  width: 80%;
+  height: 500px;
+  border: solid 2px hotpink;
+  /* border: solid 2px #283046; */
+}
+
+#workspace img {
+  /* outline: hotpink solid 1px; */
+  margin: 20px;
+  margin-left: 100px;
+}
+
+#flower1 {
+  display: none;
+}
+
+#flower2 {
+  display: none;
+}
+
+#flower3 {
+  display: none;
+}
+
+#flower4 {
+  display: none;
+}
+
+#flower5 {
+  display: none;
+}
+
+#flower6 {
+  display: none;
+}
+
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+.line {
+    border-left: 2px solid lightgrey;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+aside {
+  width: 43%;
+  margin: 16px;
+  float: left;
+  margin-top: 80px;
+}
+
+aside img {
+  padding: 8px;
+  width: 25%;
+}
+footer {
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+  margin: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  padding: 8px;
 }
