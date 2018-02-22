@@ -1,6 +1,8 @@
 //Bethany Tinklenberg Studio 4
  // ‘use strict’;
 
+var flower1 = document.getElementById('flower1');
+
  function allowDrop(ev) {
      ev.preventDefault();
  }
@@ -14,4 +16,5 @@
      ev.preventDefault();
      var data = ev.dataTransfer.getData("text");
      ev.target.appendChild(document.getElementById(data));
+     flower1.style.display = ('block');
  }
