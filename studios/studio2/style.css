@@ -1,7 +1,7 @@
 /* BETHANY TINKLENBERG CSS STUDIO 2*/
 
 * {
-  box-size: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -28,7 +28,6 @@ div {
 header {
   padding: 20px;
   margin: auto;
-  /* margin-bottom: 1730px; */
 }
 
 h1 {
