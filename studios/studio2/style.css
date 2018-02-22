@@ -61,6 +61,10 @@ h1 {
 }
 
 /***** page image content ******/
+h6 {
+  display: none;
+  font-size: 1px;
+}
 
 #bottle {
   position: fixed;
