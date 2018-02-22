@@ -173,68 +173,54 @@ footer a img {
 
 /*** for larger moniter displays ***/
 @media only screen and (min-width: 769px) {
-
   body {
     padding: 20px;
-    height: 1089px;
+    height: 0px;
     background-color: white;
   }
-
   header {
     float: left;
-    width: 50%;
-    outline: black solid 1px;
-    margin: auto;
+    width: 45%;
   }
-
   nav {
     float: left;
+    margin-top: 100px;
     width: 50%;
-    outline: black solid 1px;
   }
-
-  #shape img {
-    width: 500px;
+  #shape {
+    width: 450px;
     position: absolute;
   }
-
-  #backpack img {
+  #backpack {
     position: absolute;
-    width: 500px;
+    width: 450px;
   }
-
+  #bottle {
+    width: 30%;
+    position: static;
+    float: left;
+  }
   #bottle img {
-    width: 50%;
-    float: left;
-    position: static;
+    width: 100%;
   }
-
-  #wallet img {
-    width: 33%;
-    float: left;
+  #wallet {
+    width: 20%;
     position: static;
-  }
-
-  #iphone img {
-    width: 33%;
     float: left;
-    position: static;
   }
-
+  #iphone {
+    width: 20%;
+    position: static;
+    float: left;
+  }
   #scroll {
     display: none;
   }
-
   #overlay {
-    background-color: rgb(176, 153, 236);
     display: none;
-    padding: 16px;
+    position: relative;
+    float: right;
+    width: 30%;
+    margin-top: 0px;
   }
-
-  #overlay p {
-    font-size: 30px;
-    text-align: center;
-    width: 10%;
-  }
-
 }

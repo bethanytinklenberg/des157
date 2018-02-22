@@ -15,6 +15,7 @@ bottle.addEventListener('click', function() {
   overlay.style.display = 'block';
   iphoneoverlay.style.display = 'none';
   walletoverlay.style.display = 'none';
+  console.log("click");
 });
 
 wallet.addEventListener('click', function() {
