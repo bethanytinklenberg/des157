@@ -1,5 +1,5 @@
 //Bethany Tinklenberg Studio 4
-// ‘use strict’;
+//‘use strict’;
 
 var flower1 = document.getElementById('flower1');
 var flower2 = document.getElementById('flower2');
@@ -75,29 +75,4 @@ function drop(ev) {
     flower5.style.display = ('none');
     flower6.style.display = ('none');
   }
-
-  // if (ev = flower1) {
-  //   var flower1 = document.getElementById('flower1');
-  //   flower1.style.display = ('block');
-  // } else {
-  //   flower1.style.display = ('none');
-  // }
-  // if (ev = flower1) {
-  //   var flower1 = document.getElementById('flower1');
-  //   flower1.style.display = ('block');
-  // } else {
-  //   flower1.style.display = ('none');
-  // }
-  // if (ev = flower1) {
-  //   var flower1 = document.getElementById('flower1');
-  //   flower1.style.display = ('block');
-  // } else {
-  //   flower1.style.display = ('none');
-  // }
-  // if (ev = flower1) {
-  //   var flower1 = document.getElementById('flower1');
-  //   flower1.style.display = ('block');
-  // } else {
-  //   flower1.style.display = ('none');
-  // }
 }
