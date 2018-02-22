@@ -7,7 +7,7 @@ body {
 section {
   width: 49%;
   margin: 16px;
-  float:left;
+  float: left;
 }
 
 #workspace {
@@ -47,7 +47,6 @@ section {
   display: none;
 }
 
-
 h1 {
   font-family: 'Merriweather', serif;
   color: white;
@@ -56,11 +55,11 @@ h1 {
 }
 
 .line {
-    border-left: 2px solid lightgrey;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    top: 0;
+  border-left: 2px solid lightgrey;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
 }
 
 aside {
@@ -74,6 +73,7 @@ aside img {
   padding: 8px;
   width: 25%;
 }
+
 footer {
   clear: both;
   position: fixed;
