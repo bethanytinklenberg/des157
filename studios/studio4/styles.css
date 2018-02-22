@@ -15,12 +15,10 @@ section {
   padding: 16px;
   width: 80%;
   height: 500px;
-  border: solid 2px hotpink;
-  /* border: solid 2px #283046; */
+  border: solid 2px #283046;
 }
 
 #workspace img {
-  /* outline: hotpink solid 1px; */
   margin: 20px;
   margin-left: 100px;
 }
