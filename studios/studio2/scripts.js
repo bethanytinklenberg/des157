@@ -7,7 +7,8 @@ var wallet = document.getElementById('wallet');
 var iphone = document.getElementById('iphone');
 var overlay = document.getElementById('overlay');
 var close = document.getElementById('close');
-
+var close2 = document.getElementById('close2');
+var close3 = document.getElementById('close3');
 
 bottle.addEventListener('click', function() {
   bottleoverlay.style.display = 'block';
@@ -21,7 +22,6 @@ wallet.addEventListener('click', function() {
   overlay.style.display = 'block';
   bottleoverlay.style.display = 'none';
   iphoneoverlay.style.display = 'none';
-  // close.style.display = 'block';
 });
 
 iphone.addEventListener('click', function() {
@@ -33,7 +33,12 @@ iphone.addEventListener('click', function() {
 
 close.addEventListener('click', function() {
   overlay.style.display = 'none';
-  bottleoverlay.style.display = 'none';
-  iphoneoverlay.style.display = 'none';
-  walletoverlay.style.display = 'none';
+});
+
+close2.addEventListener('click', function() {
+  overlay.style.display = 'none';
+});
+
+close3.addEventListener('click', function() {
+  overlay.style.display = 'none';
 });

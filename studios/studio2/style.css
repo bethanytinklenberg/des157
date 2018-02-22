@@ -2,7 +2,6 @@
 
 * {
   box-size: border-box;
-  outline: black solid 1px;
 }
 
 body {
@@ -17,18 +16,9 @@ nav {
   margin: auto;
   background-color: rgba(255, 255, 255, 0);
   width: 70%;
-  /* grid-template-columns: 20%; */
-  /* grid-template-columns: [first] 1fr [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [end]; */
-  /* grid-template-rows: 128px; */
 }
 
-ul {
-  margin: auto;
-  padding: 0px;
-}
-
-li {
-  list-style-type: none;
+div {
   text-align: center;
   padding: 20px;
 }
@@ -36,8 +26,9 @@ li {
 /**** header ****/
 
 header {
-  padding: 0px;
+  padding: 20px;
   margin: auto;
+  /* margin-bottom: 1730px; */
 }
 
 h1 {
@@ -45,14 +36,13 @@ h1 {
   text-align: center;
   font-size: 40px;
   margin: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 #shape {
   position: absolute;
-  left: 10%;
-  top: 10%;
   z-index: 1;
+  margin-top: 0px;
 }
 
 #shape img {
@@ -60,8 +50,9 @@ h1 {
 }
 
 #backpack {
-  position: relative;
+  position: absolute;
   margin: 0px;
+  margin-left: 100px;
   z-index: 2;
   padding: 0px;
 }
@@ -82,33 +73,35 @@ h1 {
   width: 250px;
 }
 
-#wallet {}
-
-#wallet img {
+#wallet {
   position: fixed;
   left: 35%;
   top: 55%;
+}
+
+#wallet img {
   width: 150px;
 }
 
-#iphone {}
-
-#iphone img {
+#iphone {
   position: fixed;
   left: 18%;
   top: 25%;
+}
+
+#iphone img {
   width: 150px;
 }
 
 /***** overlay *****/
 
 #overlay {
-  background-color: rgba(176, 153, 236, .75);
+  background-color: rgb(176, 153, 236);
   display: none;
-  position: relative;
-  z-index: 3;
-  margin-top: 30px;
-  padding: 30px;
+  position: absolute;
+  margin-top: 800px;
+  z-index: 4;
+  padding: 16px;
 }
 
 #bottleoverlay {
@@ -116,7 +109,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
-  z-index: 3;
+  z-index: 4;
 }
 
 #walletoverlay {
@@ -124,7 +117,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
-  z-index: 3;
+  z-index: 4;
 }
 
 #iphoneoverlay {
@@ -132,10 +125,22 @@ h1 {
   font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
-  z-index: 3;
+  z-index: 4;
 }
 
 #close {
+  position: relative;
+  z-index: 4;
+  display: block;
+}
+
+#close2 {
+  position: relative;
+  z-index: 4;
+  display: block;
+}
+
+#close3 {
   position: relative;
   z-index: 4;
   display: block;
@@ -167,86 +172,69 @@ footer a img {
 }
 
 /*** for larger moniter displays ***/
-
 @media only screen and (min-width: 769px) {
-  !body {
-    height: 100vw;
-    width: 100vw;
+
+  body {
+    padding: 20px;
+    height: 1089px;
+    background-color: white;
   }
-  ul {
-    float: left;
-    display: inline;
-  }
-  /**** header ****/
+
   header {
-    padding: 0px;
-    width: inherit;
+    float: left;
+    width: 50%;
+    outline: black solid 1px;
     margin: auto;
   }
-  p {
-    text-align: center;
-    /* clear: both; */
-    padding: 16px;
-    margin: auto;
+
+  nav {
+    float: left;
+    width: 50%;
+    outline: black solid 1px;
   }
-  #shape {
-    position: absolute;
-    z-index: -1;
-  }
+
   #shape img {
-    width: 400px;
-    margin: auto;
+    width: 500px;
+    position: absolute;
   }
+
   #backpack img {
-    margin: auto;
-    width: 65%;
+    position: absolute;
+    width: 500px;
   }
-  /***** page image content ******/
-  /* #bottle {
-  } */
+
   #bottle img {
-    width: 250px;
+    width: 50%;
+    float: left;
+    position: static;
   }
-  /* #wallet {
-  } */
+
   #wallet img {
-    width: 150px;
+    width: 33%;
+    float: left;
+    position: static;
   }
-  /* #iphone {
-  } */
+
   #iphone img {
-    width: 150px;
+    width: 33%;
+    float: left;
+    position: static;
   }
+
+  #scroll {
+    display: none;
+  }
+
   #overlay {
-    background-color: rgba(176, 153, 236, .75);
+    background-color: rgb(176, 153, 236);
     display: none;
-    position: relative;
-    z-index: 3;
-    padding: 30px;
+    padding: 16px;
   }
-  #bottleoverlay {
-    text-align: center;
-    color: black;
-    display: none;
+
+  #overlay p {
     font-size: 30px;
-  }
-  #walletoverlay {
     text-align: center;
-    color: black;
-    display: none;
+    width: 10%;
   }
-  #iphoneoverlay {
-    text-align: center;
-    color: black;
-    display: none;
-  }
-  #close {
-    position: relative;
-    z-index: 4;
-    display: block;
-  }
-  footer #scroll {
-    clear: both;
-    display: none;
-  }
+
 }
