@@ -61,6 +61,7 @@ h1 {
 }
 
 /***** page image content ******/
+
 h6 {
   display: none;
   font-size: 1px;
@@ -175,6 +176,7 @@ footer a img {
 }
 
 /*** for larger moniter displays ***/
+
 @media only screen and (min-width: 769px) {
   body {
     padding: 20px;
