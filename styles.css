@@ -12,6 +12,10 @@ header {
   text-align: center;
 }
 
+nav li {
+  padding-bottom: 5px;
+}
+
 #branding {
   display: inline-block;
   padding: 16px;
@@ -103,7 +107,6 @@ section li {
   padding: 16px;
   margin: 16px;
   width: 44%;
-  /* height: 250px; */
   background-color: #C3D9F1;
   float: left;
 }
@@ -116,7 +119,6 @@ section li {
   padding: 16px;
   margin: 16px;
   width: 44%;
-  /* height: 250px; */
   background-color: #CFDCEC;
   float: left;
 }
