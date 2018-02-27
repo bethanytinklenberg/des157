@@ -1,6 +1,4 @@
 body {
-  /* background-image: url("teamlab.jpg"); */
-  /* background-size: cover; */
   background-color: white;
   margin: 20px;
   font-family: 'Playfair Display', serif;
@@ -18,4 +16,9 @@ section {
 img {
   float: left;
   padding: 20px;
+}
+
+article {
+  float: left;
+
 }
