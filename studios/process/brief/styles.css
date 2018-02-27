@@ -1,0 +1,44 @@
+article {
+  margin: auto;
+  width: 90%;
+  margin-top: 5%;
+}
+
+ol {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 0px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+footer {
+  background-color: #CFDCEC;
+  clear: both;
+  position: sticky;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px;
+  padding-left: 5%;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 3px;
+  color: black;
+  font-family: 'Lora';
+}
