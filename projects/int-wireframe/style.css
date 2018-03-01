@@ -1,0 +1,97 @@
+/* interactive wireframe stylesheet */
+
+body {
+  background-color: lightgrey;
+}
+
+#home {
+  margin: auto;
+  width: 80%;
+}
+
+#intro {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#begin {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 35%;
+  margin-top: 25%;
+}
+
+button a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  padding: 8px;
+}
+
+#undo {
+  display: inline;
+  top: 10px;
+  left: 10px;
+}
+
+#done {
+  display: inline;
+  float: right;
+  position: sticky;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  background: white;
+}
+
+#results {
+  background-color: lightblue;
+  height: 500px;
+  padding: 16px;
+  margin: 0px;
+  clear: both;
+}
+
+#menu {
+  background-color: purple;
+  height: 100px;
+  margin: 0px;
+  clear: both;
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  background-color: black;
+}
+
+#editor {
+  background-color: pink;
+  height: 35%;
+  clear: both;
+}
+
+#editor img {
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+}
+
+#send {
+  display: block;
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 35%;
+  margin-top: 25%;
+}
