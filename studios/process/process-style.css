@@ -1,0 +1,35 @@
+body {}
+
+img {
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 25px;
+}
+
+nav {
+  background-color: #CFDCEC;
+  clear: both;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+  padding-left: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 3px;
+  color: black;
+  font-family: 'Lora';
+}
