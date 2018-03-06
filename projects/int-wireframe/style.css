@@ -51,6 +51,21 @@ header {
   background: white;
 }
 
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
+
 #results {
   background-color: darkgrey;
   height: 600px;
