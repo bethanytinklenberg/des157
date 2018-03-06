@@ -13,13 +13,14 @@ body {
   font-family: 'Maven Pro', sans-serif;
   font-size: 20px;
   text-align: center;
+  margin-top: 10%;
 }
 
 #begin {
   border-radius: 5px;
   padding: 10px;
   margin-left: 35%;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 button a {
@@ -51,22 +52,34 @@ header {
 }
 
 #results {
-  background-color: lightblue;
-  height: 500px;
+  background-color: darkgrey;
+  height: 600px;
   padding: 16px;
   margin: 0px;
   clear: both;
 }
 
 #menu {
-  background-color: purple;
-  height: 100px;
+  background-color: grey;
+  height: 220px;
   margin: 0px;
   clear: both;
 }
 
+#menu img {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  padding: 30px;
+  display: inline-block;
+  float: left;
+}
+
 ol {
   list-style: none;
+  padding: 15px;
+  margin: auto;
 }
 
 li {
@@ -74,15 +87,17 @@ li {
 }
 
 #editor {
-  background-color: pink;
+  background-color: lightgrey;
   height: 35%;
   clear: both;
+  margin-top: 5%;
+  margin-left: 10px;
 }
 
 #editor img {
   width: 30%;
-  padding: 10px;
-  margin: auto;
+  height: 350px;
+  margin: 10px;
 }
 
 #send {
