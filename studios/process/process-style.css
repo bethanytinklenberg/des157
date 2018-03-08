@@ -33,3 +33,10 @@ nav a {
   color: black;
   font-family: 'Lora';
 }
+
+#comps {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
