@@ -1,28 +1,40 @@
 //bethany tinklenberg audience test js
+"use strict;"
 
-var rSlider, gSlider, bSlider;
-
+var slider;
 function setup() {
-  // create canvas
-  createCanvas(710, 400);
-  textSize(15);
-  noStroke();
-
-  // create sliders
-  rSlider = createSlider(0, 255, 100);
-  rSlider.position(20, 20);
-  gSlider = createSlider(0, 255, 0);
-  gSlider.position(20, 50);
-  bSlider = createSlider(0, 255, 255);
-  bSlider.position(20, 80);
+  colorMode(HSB);
+  slider = createSlider(0, 360, 60, 40);
+  slider.position(10, 10);
 }
 
 function draw() {
-  var r = rSlider.value();
-  var g = gSlider.value();
-  var b = bSlider.value();
-  background(r, g, b);
-  text("red", rSlider.x * 2 + rSlider.width, 35);
-  text("green", gSlider.x * 2 + gSlider.width, 65);
-  text("blue", bSlider.x * 2 + bSlider.width, 95);
+  var val = slider.value();
+  background(val, 100, 100, 1);
 }
+
+
+// function setup() {
+//   // Create the canvas
+//   createCanvas(720, 400);
+//   background(200);
+//
+//   // Set colors
+//   fill(204, 101, 192, 127);
+//   stroke(127, 63, 120);
+//
+//   // A rectangle
+//   rect(40, 120, 120, 40);
+//   // An ellipse
+//   ellipse(240, 240, 80, 80);
+//   // A triangle
+//   triangle(300, 100, 320, 100, 310, 80);
+//
+//   // A design for a simple flower
+//   translate(580, 200);
+//   noStroke();
+//   for (var i = 0; i < 10; i ++) {
+//     ellipse(0, 30, 20, 80);
+//     rotate(PI/5);
+//   }
+// // }

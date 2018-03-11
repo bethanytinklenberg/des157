@@ -123,3 +123,10 @@ section p {
 #middle a {
   margin: 50px;
 }
+
+#colorparent {
+  height: 800px;
+  width: 90%;
+  margin: auto;
+  background-color: red;
+}
