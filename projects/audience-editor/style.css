@@ -2,7 +2,32 @@
 
 body {
     background-color: white;
-  }
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow:hidden;
+}
+  .page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 110%; /* so background does not show with animation */
+  width: 100%;
+  text-align: center;
+  font-size: 100vmin;
+  color:#333;
+  display:none;
+}
+
+/* Display the page when targeted */
+.page:target {
+  position: absolute;
+  top:0px; /* works with or without top/left set, but best practice is to set values when using fixed or absolute positioning*/
+  left:0px;
+  display: block;
+  animation-name: scrollup;
+  animation-duration: 0.5s;
+}
 
 .button a {
   font-family: 'Maven Pro', sans-serif;
@@ -46,11 +71,38 @@ header {
   clear: both;
 }
 
+#pflower {
+  display: block; /* first page shows */
+  position: absolute;
+  bottom: 0px;
+}
+
+#page2 {
+  background-color:#87cac5;
+}
+
+#page3 {
+  background-color:#8787ca;
+}
+
+#page4 {
+  background-color:#ca87c8;
+}
+
+#page5 {
+  background-color:#d7665e;
+}
+
 #menu {
   background-color: white;
   height: 220px;
   margin: 0px;
   clear: both;
+}
+
+#menu a {
+  text-decoration: none;
+  display: inline;
 }
 
 #menu img {
