@@ -84,11 +84,14 @@ li {
   z-index: 5;
 }
 
+#menu a:active {
+  background-color:#31CFD1;
+  z-index: 5;
+}
+
 #results {
   margin: auto;
-  color: red;
   text-align: center;
-  /* display: none; */
 }
 
 div p {
@@ -104,10 +107,9 @@ div p {
   /* setting height 100% for html, body, and for all pages makes each page full viewport */
   text-align: center;
   width: 100%;
-  height: 550px;
+  height: 35%;
   position: fixed;
   bottom: 250px;
-
 }
 
 #flowereditor {
@@ -126,7 +128,6 @@ div p {
 
 #coloreditor {
   background-color: lavender;
-  height: 550px;
 }
 
 #colorslider {

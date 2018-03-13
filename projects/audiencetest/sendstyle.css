@@ -39,6 +39,11 @@ body {
   /*animation goes on this screen*/
 }
 
-#final {
-  height: 1715px;
+
+/**** animation *****/
+
+div {
+    -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(50px, 100px);
 }
