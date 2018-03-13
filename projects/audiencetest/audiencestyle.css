@@ -24,8 +24,7 @@ header {
   margin: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  position: sticky;
-  top: 0px;
+  position: relative;
 }
 
 #undo {
@@ -35,7 +34,7 @@ header {
 }
 
 #done {
-  border-radius: 100px;
+  border-radius: 10px;
   border: 2.5px solid black;
   padding: 8px;
   text-align: center;
