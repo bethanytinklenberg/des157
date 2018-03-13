@@ -105,9 +105,10 @@ div p {
   /* setting height 100% for html, body, and for all pages makes each page full viewport */
   text-align: center;
   width: 100%;
-  height: 800px;
+  height: 550px;
   position: fixed;
-  bottom: 0px;
+  bottom: 250px;
+
 }
 
 #flowereditor {
@@ -126,7 +127,7 @@ div p {
 
 #coloreditor {
   background-color: lavender;
-  height: 800px;
+  height: 550px;
 }
 
 #colorslider {
