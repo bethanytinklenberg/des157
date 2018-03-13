@@ -106,7 +106,7 @@ section li {
 #studios {
   padding: 16px;
   margin: 16px;
-  width: 44%;
+  width: 30%;
   background-color: #C3D9F1;
   float: left;
 }
@@ -118,13 +118,23 @@ section li {
 #projects {
   padding: 16px;
   margin: 16px;
-  width: 44%;
+  width: 55%;
   background-color: #CFDCEC;
   float: left;
 }
 
 #projects:hover {
   background-color: #d37cd2;
+}
+
+#projects ul {
+  float: left;
+  width: 35%;
+}
+
+#projects ol {
+  float: left;
+  width: 35%;
 }
 
 section a {
