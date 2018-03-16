@@ -40,3 +40,15 @@ nav a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+#audiencetest p {
+  width: 45%;
+  float: left;
+  margin: 10px;
+}
+
+#audiencetest img {
+  width: 40%;
+  float: left;
+  margin: 10px;
+}
