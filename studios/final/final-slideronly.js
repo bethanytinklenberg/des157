@@ -11,19 +11,6 @@ var undo = document.getElementById('undo');
 var sizebutton = document.getElementById('sizebutton');
 
 
-petalone.addEventListener('click', function(){
-  // showresults.style.display = 'block';
-  alert("This is the petal style you have selected");
-})
-
-petaltwo.addEventListener('click', function() {
-  alert("Awesome, this button works! Unfortunately, its under construction right now.");
-});
-
-petalthree.addEventListener('click', function() {
-  alert("Awesome, this button works! Unfortunately, its under construction right now.");
-});
-
 undo.addEventListener('click', function() {
   alert("Awesome, this button works! Unfortunately, its under construction right now.");
 });
@@ -32,6 +19,7 @@ sizebutton.addEventListener('click', function() {
   alert("Awesome, this button works! Unfortunately, its under construction right now.");
 });
 
+/*
 var slider;
 
 //setting up the canvas
@@ -68,8 +56,7 @@ function draw() {
     rotate(PI / 3);
     }
   }
-
-
+  */
 
 //////////////////////
 
