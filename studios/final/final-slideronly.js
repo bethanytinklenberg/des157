@@ -10,11 +10,14 @@ function setup() {
 
   // create sliders
   rSlider = createSlider(0, 255, 100);
+  rSlider.parent('colorslider');
   rSlider.position(20, 20);
   gSlider = createSlider(0, 255, 0);
   gSlider.position(20, 50);
+  rSlider.parent('colorslider');
   bSlider = createSlider(0, 255, 255);
   bSlider.position(20, 80);
+  rSlider.parent('colorslider');
 }
 
 function draw() {
