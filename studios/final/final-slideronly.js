@@ -15,13 +15,13 @@ function setup() {
 
   // create sliders
   rSlider = createSlider(0, 255, 100);
-  // rSlider.position(20, 20);
+  rSlider.position(200, 820);
   // rSlider.parent('rslider');
   gSlider = createSlider(0, 255, 0);
-  // gSlider.position(20, 50);
+  gSlider.position(200, 850);
   // rSlider.parent('gslider');
   bSlider = createSlider(0, 255, 255);
-  // bSlider.position(20, 80);
+  bSlider.position(200, 880);
   // rSlider.parent('bslider');
 }
 
