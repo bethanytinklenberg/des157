@@ -7,10 +7,10 @@ var mycanvas;
 
 function setup() {
   // create canvas
-  mycanvas = createCanvas(900,800);
+  mycanvas = createCanvas(900, 800);
   // mycanvas.position(40,50);
   mycanvas.parent('coloreditor');
-  textSize(15);
+  textSize(50);
   noStroke();
 
   // create sliders
