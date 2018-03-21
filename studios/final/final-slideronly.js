@@ -1,20 +1,28 @@
 //bethany tinklenberg audience test js
 
-var rSlider, gSlider, bSlider;
+var rSlider;
+var gSlider;
+var bSlider;
+var mycanvas;
 
 function setup() {
   // create canvas
-  createCanvas(300,300);
+  mycanvas = createCanvas(900,800);
+  // mycanvas.position(40,50);
+  mycanvas.parent('coloreditor');
   textSize(15);
   noStroke();
 
   // create sliders
   rSlider = createSlider(0, 255, 100);
-  rSlider.position(20, 20);
+  // rSlider.position(20, 20);
+  // rSlider.parent('rslider');
   gSlider = createSlider(0, 255, 0);
-  gSlider.position(20, 50);
+  // gSlider.position(20, 50);
+  // rSlider.parent('gslider');
   bSlider = createSlider(0, 255, 255);
-  bSlider.position(20, 80);
+  // bSlider.position(20, 80);
+  // rSlider.parent('bslider');
 }
 
 function draw() {
