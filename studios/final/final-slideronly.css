@@ -9,14 +9,14 @@ html, body {
    !overflow: hidden;
   background-color: white;
 }
-
+/* 
 #results {
   width: 900px;
   height: 800px;
   background-color: red;
   margin: auto;
   float: left;
-}
+} */
 
 #coloreditor {
   width: 900px;
