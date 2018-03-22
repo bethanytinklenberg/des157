@@ -10,7 +10,7 @@ var showresults = document.getElementById('results');
 var sizebutton = document.getElementById('sizebutton');
 
 
-petalone.addEventListener('click', function(){
+petalone.addEventListener('click', function() {
   // showresults.style.display = 'block';
   alert("This is the petal style you have selected");
   // What I want is for this to display the first flower type. How do I call
@@ -47,17 +47,17 @@ function setup() {
   // create sliders
   rSlider = createSlider(0, 255, 100);
   rSlider.position(25, 420);
-  rSlider.style('background-color','#d31919');
-  rSlider.style('padding', 15 +'px');
+  rSlider.style('background-color', '#d31919');
+  rSlider.style('padding', 15 + 'px');
   // rSlider.style('display','none');
   gSlider = createSlider(0, 255, 0);
   gSlider.position(25, 450);
-  gSlider.style('background-color','#33a012');
-  gSlider.style('padding', 15 +'px');
+  gSlider.style('background-color', '#33a012');
+  gSlider.style('padding', 15 + 'px');
   bSlider = createSlider(0, 255, 255);
   bSlider.position(25, 480);
-  bSlider.style('background-color','#1458c1');
-  bSlider.style('padding', 15 +'px');
+  bSlider.style('background-color', '#1458c1');
+  bSlider.style('padding', 15 + 'px');
 
 }
 
@@ -84,7 +84,7 @@ function draw() {
     endShape(CLOSE);
     //this is the axis that it is roated on
     rotate(PI / 3);
-    }
+  }
 
 }
 

@@ -1,12 +1,12 @@
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
-html,
-body {
+
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  !overflow:hidden;
+   !overflow: hidden;
   background-color: white;
 }
 
@@ -55,6 +55,7 @@ header {
 /* new css */
 
 /* Display the page when targeted */
+
 .page:target {
   display: block;
 }
@@ -78,19 +79,19 @@ nav {
 }
 
 li {
-  list-style-type:none;
-   display: inline;
-   margin: 10px;
-   margin-left: 7%;
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  margin-left: 7%;
 }
 
 #menu a:hover {
-  background-color:#31CFD1;
+  background-color: #31CFD1;
   z-index: 5;
 }
 
 #menu a:active {
-  background-color:#31CFD1;
+  background-color: #31CFD1;
   z-index: 5;
 }
 
@@ -133,7 +134,8 @@ div p {
 }
 
 #coloreditor {
-  display: block; /* first page shows */
+  display: block;
+  /* first page shows */
   width: 100%;
   margin: auto;
 }
