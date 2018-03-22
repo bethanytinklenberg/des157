@@ -132,10 +132,11 @@ function flowerthree(){
 
 function draw() {
 
-  // var r = rSlider.value();
-  // var g = gSlider.value();
-  // var b = bSlider.value();
-  // fill(r, g, b);
+  var r = rSlider.value();
+  var g = gSlider.value();
+  var b = bSlider.value();
+  // ellipse(170, 125, 230, 70);
+  fill(r, g, b);
   // flowerone();
 
 }
