@@ -7,26 +7,21 @@ var petalone = document.getElementById('petal1');
 var petaltwo = document.getElementById('petal2');
 var petalthree = document.getElementById('petal3');
 var showresults = document.getElementById('results');
-var sizebutton = document.getElementById('sizebutton');
 
 
 petalone.addEventListener('click', function() {
   // showresults.style.display = 'block';
-  alert("This is the petal style you have selected");
+  console.log("This is the petal style you have selected");
   // What I want is for this to display the first flower type. How do I call
   //that function to be run in the draw loop?
 })
 
 petaltwo.addEventListener('click', function() {
-  alert("Awesome, this button works! Unfortunately, its under construction right now.");
+  console.log("Awesome, this button works! Unfortunately, its under construction right now.");
 });
 
 petalthree.addEventListener('click', function() {
-  alert("Awesome, this button works! Unfortunately, its under construction right now.");
-});
-
-sizebutton.addEventListener('click', function() {
-  alert("Awesome, this button works! Unfortunately, its under construction right now.");
+  console.log("Awesome, this button works! Unfortunately, its under construction right now.");
 });
 
 var rSlider;
@@ -61,7 +56,11 @@ function setup() {
 
 }
 
+//this is the first petal option
 function flowerone(){
+  var r = rSlider.value();
+  var g = gSlider.value();
+  var b = bSlider.value();
   fill(r, g, b);
   //this is the position of the flower in the canvas
   translate(170, 125);
@@ -80,10 +79,10 @@ function flowerone(){
 
 function draw() {
 
-  var r = rSlider.value();
-  var g = gSlider.value();
-  var b = bSlider.value();
-  fill(r, g, b);
+  // var r = rSlider.value();
+  // var g = gSlider.value();
+  // var b = bSlider.value();
+  // fill(r, g, b);
   flowerone();
 
 }
