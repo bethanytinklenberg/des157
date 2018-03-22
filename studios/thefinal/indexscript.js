@@ -37,7 +37,7 @@ var slider;
 //setting up the canvas
 function setup() {
 
-  var resultCanvas = createCanvas(900, 800);
+  var resultCanvas = createCanvas(355, 500);
   resultCanvas.parent('results');
   noStroke();
 
@@ -55,14 +55,14 @@ function draw() {
   fill(val, 100, 100, 1); // hsba
   // coloring the flower with the position of the slider
   //this is the position of the flower in the canvas
-  translate(450, 400);
+  translate(176, 125);
   //this is the flower; its an ellipse that is copied and pasted on an axis
   for (var i = 0; i < 10; i++) {
     beginShape();
     vertex(0, 0);
-    vertex(250, 100);
-    vertex(250, 250);
-    vertex(100, 250);
+    vertex(84, 34);
+    vertex(84, 84);
+    vertex(34, 84);
     endShape(CLOSE);
     //this is the axis that it is roated on
     rotate(PI / 3);
