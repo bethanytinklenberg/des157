@@ -59,6 +59,7 @@ function setup() {
   });
 
   petalthree.addEventListener('click', function() {
+    flowerthree();
   // petalthree.mouseClicked(function() {
     console.log("Awesome, this button works! Unfortunately, its under construction right now.");
   });
@@ -102,7 +103,28 @@ function flowertwo() {
   noStroke();
   //this is the flower; its an ellipse that is copied and pasted on an axis
   for (var i = 0; i < 10; i++) {
-    ellipse(0, 0, 70, 500);
+    ellipse(0, 0, 230, 70);
+    //this is the axis that it is roated on
+    rotate(PI / 3);
+  }
+}
+
+function flowerthree(){
+  background('white');
+  var r = rSlider.value();
+  var g = gSlider.value();
+  var b = bSlider.value();
+  fill(r, g, b);
+  //this is the position of the flower in the canvas
+  translate(170, 125);
+  //this is the flower; its an ellipse that is copied and pasted on an axis
+  for (var i = 0; i < 10; i++) {
+    beginShape();
+    vertex(0, 0);
+    vertex(64, 34);
+    vertex(24, 24);
+    vertex(34, 64);
+    endShape(CLOSE);
     //this is the axis that it is roated on
     rotate(PI / 3);
   }
