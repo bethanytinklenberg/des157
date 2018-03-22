@@ -61,17 +61,8 @@ function setup() {
 
 }
 
-function draw() {
-
-  var r = rSlider.value();
-  var g = gSlider.value();
-  var b = bSlider.value();
+function flowerone(){
   fill(r, g, b);
-  // text("red", rSlider.x * 2 + rSlider.width, 420);
-  // // console.log('readingjs');
-  // text("green", gSlider.x * 2 + gSlider.width, 460);
-  // text("blue", bSlider.x * 2 + bSlider.width, 480);
-  // coloring the flower with the position of the slider
   //this is the position of the flower in the canvas
   translate(170, 125);
   //this is the flower; its an ellipse that is copied and pasted on an axis
@@ -85,6 +76,15 @@ function draw() {
     //this is the axis that it is roated on
     rotate(PI / 3);
   }
+}
+
+function draw() {
+
+  var r = rSlider.value();
+  var g = gSlider.value();
+  var b = bSlider.value();
+  fill(r, g, b);
+  flowerone();
 
 }
 
@@ -92,7 +92,7 @@ function draw() {
 
 //////////////////////
 
-// function flowerone(){
+// void flowerone(){
 // //this is the color of the flower
 // var val = slider.value();
 // fill(val, 100, 100, 1); // hsba
