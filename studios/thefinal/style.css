@@ -13,7 +13,7 @@ body {
 .button a {
   font-family: 'Maven Pro', sans-serif;
   font-size: 16px;
-  color: white;
+  color: black;
   text-decoration: none;
   text-align: center;
 }
@@ -34,8 +34,22 @@ header {
   float: left;
 }
 
-#done a {
-  color: black;
+#yes {
+  border-radius: 10px;
+  border: 2.5px solid black;
+  padding: 8px;
+  text-align: center;
+  width: 60px;
+  margin: auto;
+}
+
+#view {
+  border-radius: 10px;
+  border: 2.5px solid black;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  width: 150px;
 }
 
 /* new css */
@@ -128,6 +142,28 @@ div p {
   text-align: center;
 }
 
+#spanleft {
+  float: left;
+  display: inline-block;
+  margin-left: 15%;
+}
+
+#spanright {
+  float: right;
+  display: inline-block;
+  margin-right: 15%;
+}
+
+#sat {
+  background: linear-gradient(to right, black, white) no-repeat;
+  display: block;
+  width: 75%;
+  height: 20px;
+  margin: auto;
+  border: 1px grey solid;
+  margin-top: 10%;
+}
+
 input {
   display: block;
   margin: 20px;
@@ -136,7 +172,24 @@ input {
   height: 10px;
 }
 
-#sizeeditor {
-  background-color: teal;
+#saveflower {
+  background-color: lavender;
   z-index: 3;
+}
+
+#saveflower p {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15px;
+}
+
+#savesuccess {
+  background-color: lavender;
+  z-index: 3;
+}
+
+#savesuccess p {
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15px;
 }

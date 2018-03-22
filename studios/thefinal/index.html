@@ -30,20 +30,27 @@
   </div>
 
   <div class="page" id="coloreditor">
-    <p>choose the color of your flower</p>
-    <p>Darker - - - - - - - - - - - - - Lighter</p>
+    <p>choose the color of your flower in RGB</p>
+    <div id="sat"></div>
+    <!-- <p id="spanleft">Dark | Bright</p>
+    <p id="spanright">Light | Dim</p> -->
   </div>
 
-  <div class="page" id="sizeeditor">
+  <div class="page" id="saveflower">
+    <p>would you like to save your creation?</p>
+    <div class="button" id="yes"><a href="#savesuccess">yes</a></div>
+  </div>
 
-    <!-- size adjuster goes here -->
+  <div class="page" id="savesuccess">
+    <p>flower was sucessfully saved to database</p>
+    <div class="button" id="view"><a href="">view database</a></div>
   </div>
 
   <nav id="menu">
     <ol>
       <li><a href="#flowereditor"><img src="images/flower.png"></a></li>
       <li><a href="#coloreditor"><img src="images/color.png"></a></li>
-      <li><a id="sizebutton" href="#sizeeditor"><img src="images/size.png"></a></li>
+      <li><a href="#saveflower"><img src="images/save.png"></a></li>
     </ol>
   </nav>
 
