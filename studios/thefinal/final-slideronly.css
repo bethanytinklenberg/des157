@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  !overflow: hidden;
+  background-color: white;
+}
+/*
+#results {
+  width: 900px;
+  height: 800px;
+  background-color: red;
+  margin: auto;
+  float: left;
+} */
+
+#coloreditor {
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  display: block;
+  margin: 20px;
+  margin-bottom: 10px;
+  width: 75%;
+  height: 10px;
+}
+
+/* .colorslider {
+} */

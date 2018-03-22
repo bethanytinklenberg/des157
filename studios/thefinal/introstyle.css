@@ -1,0 +1,77 @@
+/*intro page stylesheet*/
+
+body {
+  background-color: white;
+  background: linear-gradient(to bottom right, #31CFD1, #DF227F) no-repeat;
+}
+
+#home {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}
+
+#home p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  color: white;
+}
+
+#begin {
+  border-radius: 100px;
+  border: 2.5px solid white;
+  padding: 8px;
+  margin: auto;
+  text-align: center;
+  width: 70px;
+  margin-top: 15%;
+}
+
+.button a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#undo {
+  display: inline;
+  top: 10px;
+  left: 10px;
+  margin: 20px;
+}
+
+#send {
+  position: absolute;
+  bottom: 100px;
+  left: 45%;
+  padding: 10px;
+  border-radius: 100px;
+  border: 2.5px solid white;
+  /*animation goes on this screen*/
+}
+
+#final {
+  height: 1715px;
+}
+
+footer {
+  position: sticky;
+  background-color: black;
+  margin-top: 15%;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+}
+
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
