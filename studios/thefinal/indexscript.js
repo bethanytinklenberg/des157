@@ -61,6 +61,37 @@ function setup() {
 
 }
 
+function draw() {
+
+  var r = rSlider.value();
+  var g = gSlider.value();
+  var b = bSlider.value();
+  fill(r, g, b);
+  // text("red", rSlider.x * 2 + rSlider.width, 420);
+  // // console.log('readingjs');
+  // text("green", gSlider.x * 2 + gSlider.width, 460);
+  // text("blue", bSlider.x * 2 + bSlider.width, 480);
+  // coloring the flower with the position of the slider
+  //this is the position of the flower in the canvas
+  translate(170, 125);
+  //this is the flower; its an ellipse that is copied and pasted on an axis
+  for (var i = 0; i < 10; i++) {
+    beginShape();
+    vertex(0, 0);
+    vertex(84, 34);
+    vertex(84, 84);
+    vertex(34, 84);
+    endShape(CLOSE);
+    //this is the axis that it is roated on
+    rotate(PI / 3);
+    }
+
+}
+
+
+
+//////////////////////
+
 // function flowerone(){
 // //this is the color of the flower
 // var val = slider.value();
@@ -81,47 +112,15 @@ function setup() {
 //   }
 // }
 
-function draw() {
-
-  var r = rSlider.value();
-  var g = gSlider.value();
-  var b = bSlider.value();
-  fill(r, g, b);
-  // text("red", rSlider.x * 2 + rSlider.width, 420);
-  // // console.log('readingjs');
-  // text("green", gSlider.x * 2 + gSlider.width, 460);
-  // text("blue", bSlider.x * 2 + bSlider.width, 480);
-  // coloring the flower with the position of the slider
-  //this is the position of the flower in the canvas
-  translate(176, 125);
-  //this is the flower; its an ellipse that is copied and pasted on an axis
-  for (var i = 0; i < 10; i++) {
-    beginShape();
-    vertex(0, 0);
-    vertex(84, 34);
-    vertex(84, 84);
-    vertex(34, 84);
-    endShape(CLOSE);
-    //this is the axis that it is roated on
-    rotate(PI / 3);
-    }
-
-}
-
-
-
-//////////////////////
-
 //this is another flower, so please ignore it
 
 
-/* function draw() {
+/* function flowertwo() {
   //this is the color of the flower
   //want to be the innerHTML of a color form?
-  var c = color('darkblue');
-  fill(c); // Use 'c' as fill color
+  fill(r, g, b);
   //this is the position of the flower in the canvas
-  translate(400, 400);
+  translate(176, 125);
   noStroke();
   //this is the flower; its an ellipse that is copied and pasted on an axis
   for (var i = 0; i < 10; i++) {
